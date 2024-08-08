@@ -1,0 +1,68 @@
+.imgbox2{
+    width: 500px;
+    margin-right: 200px;
+}
+.container{
+    border: 1px solid red;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    /*background-color: aqua;*/
+    padding: 30px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+nav{
+    /*background-color: red;*/
+    margin: 0px 10px;
+}
+}
+
+.logonav{
+    display: flex;
+}
+.loginbtn{
+    display: flex;
+    align-items: center;
+
+    button{
+        background-color: transparent;
+        border: 1px solid blue;
+        height: 35px;
+        width: 80px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+}
+
+.icon-menu{
+    display: none;
+}
+@media (max-width: 800px) {
+    .navbar{
+        display: none;
+    }
+    .loginbtn{
+        display: none;
+    }
+    .icon-menu{
+        display: flex;
+    }
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.textbox{
+    border: 1px solid greenyellow;
+    margin-left: 150px;
+    width: 20%;
+}
+h1{
+    font-size: 68px;
+}
